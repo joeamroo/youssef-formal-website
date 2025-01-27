@@ -1,0 +1,19 @@
+/* Center align the content */
+body {
+    text-align: center;
+}
+
+/* Style the sections for better readability */
+section {
+    margin-bottom: 30px;
+}
+
+/* Ensure links look clean */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

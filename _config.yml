@@ -36,3 +36,10 @@ exclude:
 # Conversion
 markdown: kramdown
 highlighter: rouge
+
+sass:
+  style: compressed
+
+assets:
+  css:
+    - /assets/css/custom.css
