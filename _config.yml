@@ -3,7 +3,7 @@ locale: "en-US"
 title: "Youssef Ateya's Personal Website"
 description: "Professional website for Youssef Ateya, a Computer Science major at the University of Houston."
 url: "https://joeamroo.github.io/youssef-formal-website"
-baseurl: "" # Leave blank unless hosted in a subdirectory
+baseurl: "" 
 repository: "joeamroo/youssef-formal-website"
 
 # Author Profile
