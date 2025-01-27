@@ -6,7 +6,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-redirect-from'
   gem 'jemoji'
-  gem 'webrick', '~> 1.8'
 end
 
 gem 'github-pages'
+gem 'webrick', '~> 1.8' # Required for Ruby 3.0+

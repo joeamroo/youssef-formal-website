@@ -17,3 +17,63 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Main container styling */
+.page__content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation menu styling */
+.masthead {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Center the navigation items */
+.greedy-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add some spacing between navigation items */
+.visible-links {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Make content more readable */
+.page__content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+}
+
+/* Style section headings */
+.page__content h2 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: #333;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 0.5em;
+}
+
+/* Style links */
+.page__content a {
+    color: #2a7ae2;
+    text-decoration: none;
+}
+
+.page__content a:hover {
+    text-decoration: underline;
+}
+
+/* Add responsive padding */
+@media screen and (max-width: 768px) {
+    .page__content {
+        padding: 15px;
+    }
+}
