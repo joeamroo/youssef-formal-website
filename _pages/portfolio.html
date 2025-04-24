@@ -7,35 +7,88 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>WhiteRock Project</h2>
+<div class="video-container-top">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/mrRwb6p2X4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h2>Projects</h2>
 
 <div class="project-container">
-  <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mrRwb6p2X4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
-  
+  <h3>WhiteRock Project</h3>
   <div class="project-description">
     <p>A software design project that I contributed to as part of a team. The project uses Django framework for backend development.</p>
     <p><strong>Repository:</strong> <a href="https://github.com/alijavaidistar/WhiteRock" target="_blank">WhiteRock on GitHub</a></p>
     <p><strong>Team Members:</strong> Ali Javaid, Naim Momin, Erik Lopez, Youssef Ateya</p>
+    <p><strong>Technologies Used:</strong> Django, Python, JavaScript, HTML, CSS</p>
+    <p><strong>Features:</strong></p>
+    <ul>
+      <li>User authentication and authorization system</li>
+      <li>Document management and approval workflow</li>
+      <li>PDF generation and handling</li>
+      <li>Responsive UI design</li>
+    </ul>
+  </div>
+</div>
+
+<h2>Skills</h2>
+
+<div class="skills-container">
+  <div class="skills-category">
+    <h3>Programming Languages</h3>
+    <ul>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>C++</li>
+      <li>HTML/CSS</li>
+    </ul>
+  </div>
+  
+  <div class="skills-category">
+    <h3>Frameworks & Technologies</h3>
+    <ul>
+      <li>Django</li>
+      <li>React</li>
+      <li>Node.js</li>
+      <li>Git/GitHub</li>
+      <li>Docker</li>
+    </ul>
+  </div>
+  
+  <div class="skills-category">
+    <h3>Other Skills</h3>
+    <ul>
+      <li>Database Design (SQL, MongoDB)</li>
+      <li>RESTful API Development</li>
+      <li>Agile Development</li>
+      <li>Problem Solving</li>
+      <li>Team Collaboration</li>
+    </ul>
+  </div>
+</div>
+
+<h2>Education</h2>
+
+<div class="education-container">
+  <div class="education-item">
+    <h3>University of Houston</h3>
+    <p><strong>Bachelor of Science in Computer Science</strong></p>
+    <p><strong>Minor in Mathematics</strong></p>
+    <p>Relevant coursework: Software Design, Data Structures, Algorithms, Database Systems</p>
   </div>
 </div>
 
 <style>
-  .project-container {
-    margin-bottom: 40px;
-  }
-  
-  .video-container {
+  .video-container-top {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
-    max-width: 100%;
-    margin-bottom: 20px;
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
   }
   
-  .video-container iframe {
+  .video-container-top iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -43,8 +96,41 @@ author_profile: true
     height: 100%;
   }
   
+  .project-container {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
   .project-description {
     margin-top: 20px;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
+  .skills-category {
+    flex: 0 0 30%;
+    margin-bottom: 20px;
+  }
+  
+  .education-container {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
+  .education-item {
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .skills-category {
+      flex: 0 0 100%;
+    }
   }
 </style>
 
